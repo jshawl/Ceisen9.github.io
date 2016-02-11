@@ -44,13 +44,23 @@ footer {
   color: white;
 }
 
+p {
+  max-width: 500px;
+  background-color: #fff;
+  opacity: .75;
+}
+
+a:visited {
+	color: #cc99ff;
+}
+
 li {
   padding: 10px;
   list-style-type: none;
 
 }
 .box2 {
-  color: blue;
+  color: #000099;
   text-align: center;
   background: deepskyblue;
   flex-grow: 4;
