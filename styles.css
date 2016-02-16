@@ -16,6 +16,7 @@
   font-weight: bold;
   text-align: center;
   height: 100%;
+  /* awesome job using flexbox! */
 }
 
 img {
@@ -28,14 +29,11 @@ html,body {
   margin: 0;
   padding: 0;
 }
-.box {
 
-}
 .box1 {
   font-family: 'Londrina Shadow', cursive;
   background: black;
   flex-grow: 1;
-  /*position: relative;*/
   color: #aaaaaa;
   font-size: 1.25em;
 
@@ -69,6 +67,7 @@ li {
   background: deepskyblue;
   flex-grow: 4;
   background-image: url(http://i.imgur.com/Fi6tibO.jpg);
+  /* download above image to prevent 404 in the future */
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
